@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 40.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blackjack"
+authors = [{name = "William F. Schiela", email = "bschiela@gmail.com"}]
+description = "Blackjack strategy calculator"
+packages = ["blackjack"]
+
+version = "0.0"
+dependencies = []
+requires-python = ">=3.10"
